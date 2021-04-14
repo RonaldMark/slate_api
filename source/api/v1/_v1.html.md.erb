@@ -1,0 +1,54 @@
+
+# Introduction
+
+Welcome to SwitchLink APIs!
+
+The API is organized around REST.
+
+Our API has predictable resource-oriented URLs, accepts JSON-encoded request bodies, returns JSON-encoded responses, 
+and uses standard HTTP response codes and authentication.
+
+Authentication.
+APIs.
+Call backs.
+Errors.
+Please Note: Credentials, unique partner identifiers etc will be shared on email.
+
+
+# Getting started
+
+This document outlines how to integrate to Switchlink Money Transfer platform.
+
+There are two main api calls:
+
+- requests.
+
+- status.
+
+# Authentication
+
+Authorization is through basic auth(username:password) to validate the requests.
+
+Content-Type:application/json
+
+Authorization:Basic
+
+A hash is also computed using some mandatory request parameters and a key that is preshared on the registration process.
+
+Please contact support@switchlinkafrica.co.ke for more information.
+
+username & password to be provided on email.
+
+
+<%= partial "./api/v1/request/req.html.md.erb"%>
+
+<%= partial "./api/v1/banks/banks.html.md.erb"%>
+
+<%= partial "./api/v1/reference/field_definition.html.md.erb"%>
+
+<%= partial "./api/v1/reference/error_def.html.md.erb"%>
+
+<%= partial "./api/v1/reference/trx_status_code.html.md.erb"%>
+
+<%= partial "./api/v1/reference/sla_status_code.html.md.erb"%>
+
